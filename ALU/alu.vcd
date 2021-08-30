@@ -1,0 +1,39 @@
+$date
+	Mon Aug 30 20:44:42 2021
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module alu $end
+$var wire 4 ! a [3:0] $end
+$var wire 4 " b [3:0] $end
+$var wire 1 # clk $end
+$var wire 1 $ reset $end
+$var wire 3 % s [2:0] $end
+$var reg 8 & y [7:0] $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+bx &
+bz %
+1$
+z#
+bz "
+bz !
+$end
+#2000
+b110 &
+0$
+b0 %
+b11 !
+b11 "
+#4000
+b11111011 &
+b1 %
+b1 !
+b110 "
+#6001

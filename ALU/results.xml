@@ -1,0 +1,8 @@
+<testsuites name="results">
+  <testsuite name="all" package="all">
+    <property name="random_seed" value="1630336482" />
+    <testcase classname="test_alu" file="/home/ganesh/git_workspace/COCOTB_TESTS/ALU/test_alu.py" lineno="13" name="testing_alu" ratio_time="3039.4901949039972" sim_time_ns="6.001" time="0.001974344253540039">
+      <failure />
+    </testcase>
+  </testsuite>
+</testsuites>
