@@ -21,15 +21,18 @@ integer i;
 
 always @(posedge clk) begin
     if (reset) begin
-        for(i=0; i<ram_width; i=i+1)
+        for(i=0; i<ram_depth; i=i+1)
             mem[i] <= 0;
-        data_out <= 0; 
     end
     else begin
-        if (wr_enb)
+        if (wr_enb) begin
             mem[wr_addr] <= data_in;
-        if (rd_enb)
+        end
+            
+        if (rd_enb) begin
             data_out <= mem[rd_addr];
+        end
+            
     end
 end
 
