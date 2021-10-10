@@ -1,0 +1,6 @@
+<testsuites name="results">
+  <testsuite name="all" package="all">
+    <property name="random_seed" value="1632691581" />
+    <testcase classname="test_up_down_counter" file="/home/ganesh/git_workspace/COCOTB_TESTS/up_down_counter/test_up_down_counter.py" lineno="30" name="test_up_down_counter" ratio_time="19925813.47652417" sim_time_ns="125000.001" time="0.0062732696533203125" />
+  </testsuite>
+</testsuites>
