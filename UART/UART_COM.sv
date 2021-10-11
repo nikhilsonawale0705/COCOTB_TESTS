@@ -3,18 +3,13 @@
 `include "tx_uart.v"
 `include "rx_uart.v"
 
-module UART_COM (
-    input i_clock,
-    input r_tx_dv,
-    input [7:0] r_TX_Byte,
-    output [7:0] w_RX_Byte
-);
+module UART_COM ();
 
     parameter CLKS_PER_BIT = 217;
-    // reg i_clock;
-    // reg r_tx_dv;
-    // reg [7:0] r_TX_Byte ;
-    // wire [7:0] w_RX_Byte;
+    reg i_clock;
+    reg r_tx_dv;
+    reg [7:0] r_TX_Byte ;
+    wire [7:0] w_RX_Byte;
     wire w_tx_serial;
     reg w_tx_active, w_rx_active;
     wire w_UART_Line;

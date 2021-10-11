@@ -35,11 +35,3 @@ async def testing_alu(dut):
         else:
             assert dut.y.value == adder_model.or_model(a, b), "Randomised test failed with: {a} + {b} = {y}".format(
                 a=dut.a.value, b=dut.b.value, y=dut.y.value)
-    # for i in range(3):
-    #     dut.s = 1
-    #     a <= random.randint(4, 7)
-    #     b <= random.randint(1, 7)
-    #     yield RisingEdge(clk)
-    #     print(a, b)
-    #     assert dut.y.value == adder_model(a, b)
-    #     print("output...%s" % (dut.y))
