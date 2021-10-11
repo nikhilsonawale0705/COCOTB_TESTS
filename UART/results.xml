@@ -1,6 +1,0 @@
-<testsuites name="results">
-  <testsuite name="all" package="all">
-    <property name="random_seed" value="1633981175" />
-    <testcase classname="test_UART_COM" file="/home/ganesh/git_workspace/COCOTB_TESTS/UART/test_UART_COM.py" lineno="13" name="testing_UART_communication" ratio_time="63797469.25655876" sim_time_ns="217390000.001" time="3.4075019359588623" />
-  </testsuite>
-</testsuites>
